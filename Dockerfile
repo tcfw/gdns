@@ -13,6 +13,8 @@ RUN go build -o gdns .
 
 FROM ubuntu:latest
 
+WORKDIR /usr/bin
+
 COPY --from=builder gdns .
 
-CMD [ "./gdns" ]
+CMD [ "gdns" ]
