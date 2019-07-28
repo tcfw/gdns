@@ -1,5 +1,5 @@
 # gdns
-GNS Updates records in GCP Cloud DNS similar to dynamic DNS
+GDNS Updates records in GCP Cloud DNS similar to dynamic DNS
 
 # Usage
 ```sh
@@ -21,5 +21,5 @@ gdns -p my-example-project -m example-dns-zone -r example.com.
 ```
 
 # Authentication
-Either reads from the local gcloud auth files or from a JSON key references in the `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
+Either from the local gcloud auth files or from a JSON key references in the `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
 See https://cloud.google.com/docs/authentication/production#finding_credentials_automatically for more info.
